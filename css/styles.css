@@ -19,6 +19,18 @@ h1 {
 
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
 /* Navigation Bar */
 
 .navbar {
@@ -55,22 +67,26 @@ h1 {
     transform: rotate(25deg);
 }
 
+/* Features */
+
+#features {
+    text-align: center;
+    line-height: 2;
+    padding: 7% 15%;
+}
+
+.feature-column {
+   padding: 5%;
+}
+
 /* Font Awesome Icons */
 
-i {
-    color:#ef8172;
-    font-size: 2rem;
+#features i {
+    color:#ef8172; 
+    margin-bottom: 1rem; 
 }
 
-#features h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-
-#features p {
-    color: #8f8f8f;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
+#features i:hover {
+    color:#ff4c68;
+    
 }
