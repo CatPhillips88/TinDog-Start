@@ -4,6 +4,7 @@ body {
 
 #title {
     background-color: #ff4c68;
+    color: #ffffff;
 }
 
 .container-fluid {
@@ -11,11 +12,11 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
-    color: rgb(255,255,255);
+
 }
 
 /* Navigation Bar */
@@ -35,8 +36,10 @@ h1 {
 }
 
 .nav-link {
-    font-family:  'Montserrat-Light', sans-serif;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 1.2rem;
+
 }
 
 /* Download Buttons */
@@ -50,6 +53,6 @@ h1 {
 
 .title-image {
     height: 60%;
-    transform: rotate(30deg);
+    transform: rotate(25deg);
 
 }
